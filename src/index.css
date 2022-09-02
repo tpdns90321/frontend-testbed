@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { background-color: black; }
+
+button { @apply m-2 p-2 text-white rounded-md border-2 border-white }
+button.primary { @apply text-blue-400 border-blue-400 }
+button.error { @apply text-red-600 border-red-600 }
+
