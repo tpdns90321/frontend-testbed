@@ -2,26 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-body { @apply text-white bg-black }
+body {
+  @apply text-white bg-black;
+}
 
-button { @apply m-2 p-2 text-blue-300 rounded-md border-2 border-blue-300 hover:text-blue-400 hover:border-blue-400 }
-button.success { @apply text-green-500 border-green-500 hover:text-green-600 hover:border-green-600 }
-button.error { @apply text-red-600 border-red-600 hover:text-red-700 hover:border-red-700 }
-button[disabled], button:disabled { @apply opacity-60 }
+button {
+  @apply m-2 p-2 text-blue-300 rounded-md border-2 border-blue-300 hover:text-blue-400 hover:border-blue-400;
+}
+button.success {
+  @apply text-green-500 border-green-500 hover:text-green-600 hover:border-green-600;
+}
+button.error {
+  @apply text-red-600 border-red-600 hover:text-red-700 hover:border-red-700;
+}
+button[disabled],
+button:disabled {
+  @apply opacity-60;
+}
 
 input,
-input[type=text],
-input[type=password],
-input[type=date],
-input[type=number],
-input[type=search],
-input[type=url],
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="number"],
+input[type="search"],
+input[type="url"],
 textarea {
-  @apply p-1 m-2 border-2 border-white rounded-lg bg-transparent focus:border-blue-400 focus:placeholder-blue-400 placeholder:italic
+  @apply p-1 m-2 border-2 border-white rounded-lg bg-transparent focus:border-blue-400 focus:placeholder-blue-400 placeholder:italic;
 }
 
-input[type=checkbox] + label {
-  @apply cursor-pointer text-blue-300 hover:text-blue-400
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  @apply cursor-pointer text-blue-300 hover:text-blue-400;
 }
 
-a { @apply h-fit w-fit text-blue-300 hover:text-blue-400 }
+a {
+  @apply h-fit w-fit text-blue-300 hover:text-blue-400 cursor-pointer;
+}

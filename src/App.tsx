@@ -1,10 +1,11 @@
-import { BrowserRouter } from 'react-router-dom';
+import { ReactElement } from "react";
+import { BrowserRouter } from "react-router-dom";
 
-import Header from './Header';
-import Body from './Body';
-import Footer from './Footer';
+import Header from "./Header";
+import Body from "./Body";
+import Footer from "./Footer";
 
-function App() {
+function App(): ReactElement {
   return (
     <div className="flex flex-col w-screen h-screen">
       <BrowserRouter>
@@ -18,4 +19,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
