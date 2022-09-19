@@ -1,5 +1,5 @@
-import { ReactElement } from "react";
-import AutoResizeTextArea from "../components/AutoResizeTextArea";
+import { ReactElement } from 'react';
+import AutoResizeTextArea from '../components/AutoResizeTextArea';
 
 function InputText(): ReactElement {
   return (

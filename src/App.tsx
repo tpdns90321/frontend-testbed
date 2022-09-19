@@ -1,9 +1,9 @@
-import { ReactElement } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { ReactElement } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import Header from './Header';
+import Body from './Body';
+import Footer from './Footer';
 
 function App(): ReactElement {
   return (

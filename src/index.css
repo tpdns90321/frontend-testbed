@@ -21,18 +21,18 @@ button:disabled {
 }
 
 input,
-input[type="text"],
-input[type="password"],
-input[type="date"],
-input[type="number"],
-input[type="search"],
-input[type="url"],
+input[type='text'],
+input[type='password'],
+input[type='date'],
+input[type='number'],
+input[type='search'],
+input[type='url'],
 textarea {
   @apply p-1 m-2 border-2 border-white rounded-lg bg-transparent focus:border-blue-400 focus:placeholder-blue-400 placeholder:italic;
 }
 
-input[type="checkbox"],
-input[type="checkbox"] + label {
+input[type='checkbox'],
+input[type='checkbox'] + label {
   @apply cursor-pointer text-blue-300 hover:text-blue-400;
 }
 

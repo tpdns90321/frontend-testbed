@@ -1,11 +1,11 @@
-import classNames from "classnames";
+import classNames from 'classnames';
 import {
   useCallback,
   FormHTMLAttributes,
   FormEventHandler,
   FormEvent,
   ReactElement,
-} from "react";
+} from 'react';
 
 function Form(props: FormHTMLAttributes<HTMLFormElement>): ReactElement {
   const { onSubmit, className } = props;
@@ -25,7 +25,7 @@ function Form(props: FormHTMLAttributes<HTMLFormElement>): ReactElement {
     <form
       {...props}
       className={classNames(
-        "flex flex-col m-2 p-2 bg-transparent border-2 border-white rounded-lg",
+        'flex flex-col m-2 p-2 bg-transparent border-2 border-white rounded-lg',
         className
       )}
       onSubmit={beforeOnSubmit}

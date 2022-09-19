@@ -1,5 +1,5 @@
-import { useState, useCallback, ReactElement } from "react";
-import Form from "../components/Form";
+import { useState, useCallback, ReactElement } from 'react';
+import Form from '../components/Form';
 
 function Login(): ReactElement {
   const [isAutoLogin, setAutoLogin] = useState(false);

@@ -7,8 +7,8 @@ import {
   FormEvent,
   useEffect,
   ReactElement,
-} from "react";
-import classNames from "classnames";
+} from 'react';
+import classNames from 'classnames';
 
 interface AutoResizeTextAreaProps {
   textareaRef?: RefObject<HTMLTextAreaElement>;
@@ -38,7 +38,7 @@ function AutoResizeTextArea(
         return;
       }
 
-      const minimumHeightStyle = minimumHeight.toString() + "px";
+      const minimumHeightStyle = minimumHeight.toString() + 'px';
       textarea.style.height = minimumHeightStyle;
       if (textarea.scrollHeight < minimumHeight) {
         textarea.style.height = minimumHeightStyle;
@@ -57,7 +57,7 @@ function AutoResizeTextArea(
     <textarea
       {...childProps}
       ref={ref}
-      className={classNames(className, "resize-none overflow-hidden")}
+      className={classNames(className, 'resize-none overflow-hidden')}
       onInput={detectSizeBeforeOnInput}
     />
   );
